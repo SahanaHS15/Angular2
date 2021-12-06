@@ -1,0 +1,8 @@
+ .main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-img-top{
+    width: 250px;
+    height: 300px;
+}

@@ -1,0 +1,48 @@
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif; 
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    line-height: 170%;
+    padding: 5% 20% 20% 0%;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 32px;
+    font-size: 15px;
+    border: solid 2px hsl(0, 0%, 95%);
+    border-radius: 30px;
+}
+
+.cards {
+    
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sedan {
+    padding: 10px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.sedan button {
+    color: orange;
+}
+
+.sedan button:hover {
+    background-color: orange;
+    color: hsl(0, 0%, 95%);
+}
+
+

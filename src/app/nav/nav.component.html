@@ -1,0 +1,17 @@
+<!-- <form [formGroup]="myReactiveForm" (ngSubmit)="onSubmit()"> -->
+    <form>
+    <label for="fname">First Name</label>
+<input type="text" id="fname" formControlName="fname">
+<br>
+<label for="lname">Second Name</label>
+<input type="text" id="lname" formControlName="lname">
+<br>
+<div class="">
+    <label for="email">Email</label>
+    <input type="email" id="email" formControlName="email">
+<br>
+<!-- <small *ngIf="myReactiveForm.get('email').valid">Please Enter the Email</small> -->
+</div>
+<button type="submit">Submit</button>
+</form>
+
